@@ -1,0 +1,52 @@
+/*Vh sltura del navegador*/
+
+
+/*Vw anchura*/
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    margin: 0;
+}
+
+header,
+footer {
+    height: 25vh;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    height: 50vh;
+    padding-right: 3.2vh;
+}
+
+h1 {
+    margin: 0;
+}
+
+div.scrollmenu div.card {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 3.2vh 0 3.2vh 3.2vh;
+    /*Primer valor a arriba, segundo a la derecha, tercero abajo, cuarto izquierda*/
+    text-decoration: none;
+}
+
+img {
+    width: 40vh;
+}
+
+.button {
+    width: 5%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
